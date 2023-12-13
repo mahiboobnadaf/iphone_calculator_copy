@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: auto;
+    background-color:grey;
+}
+.container > .calculator{
+    /* width: 300px; */
+    width: auto;
+    border: solid 1px;
+    gap: 8px;
+}
+.screen{
+    height: 80px ;
+    width: 245px ; 
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end ;
+    align-items:last baseline;
+    font-size: 40px;
+    padding-right:25px ;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 26.001px;
+}
+.row{
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;   
+}
+.btn{
+    height: 50px ;
+    width: 50px ;
+    font-size:20px;
+    font-weight: 400;
+    border-radius: 100%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 26.001px;
+    color: rgb(51, 51, 51);
+}
+
+.zero {
+    height: 50px;
+    width:115px;
+    border-radius: 1600px; 
+    justify-content: left !important;
+    text-indent: 20px;
+}
+
+.bg-grey{ 
+    background-color: rgb(165,165,165);
+    color: black ;
+}
+.bg-orange{
+    background-color:#fe9f0a ;
+}
+
+.btn-bg-color{
+    color: white;
+    background-color: #333333;
+}
+.bg-black{
+    background-color: black;
+}
+
+.inc_font{
+    font-size: 25px;
+    color: white;
+}
+.txt-white{
+    color: white;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+
+}
